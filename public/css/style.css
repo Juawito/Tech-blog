@@ -190,6 +190,14 @@ input {
 .form-textarea {
   display: block;
 }
+.login-form{
+  background: whitesmoke;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 
 .form-label {
   font-size: 1.1rem;
@@ -203,6 +211,23 @@ input {
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
   border-radius: var(--border-radius);
+}
+.form-container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-form{
+  background: whitesmoke;
+  width:500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 
 /* HEIGHT / WIDTH UTILS */
